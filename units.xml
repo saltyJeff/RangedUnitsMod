@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/14/2014 8:01:04 PM -->
+<GameData>
+	<Units>
+		<!--Modify Musketmen and variants-->
+		<Update>
+			<Set Combat="35"/>
+			<Where Type="UNIT_MUSKETMAN"/>
+		</Update>
+		<Update>
+			<Set Combat="35"/>
+			<Where Type="UNIT_OTTOMAN_JANISSARY"/>
+		</Update>
+		<Update>
+			<Set Combat="35"/>
+			<Where Type="UNIT_AMERICAN_MINUTEMAN"/>
+		</Update>
+		<Update>
+			<Set Combat="40"/>
+			<Where Type="UNIT_FRENCH_MUSKETEER"/>
+		</Update>
+		<!--Modify Riflemen and variants-->
+		<Update>
+			<Set CombatClass="UNITCOMBAT_ARCHER"/>
+			<Where Type="UNIT_RIFLEMAN"/>
+		</Update>
+		<Update>
+			<Set DefaultUnitAI="UNITAI_RANGED"/>
+			<Where Type="UNIT_RIFLEMAN"/>
+		</Update>
+		<Update>
+			<Set Range="3"/>
+			<Where Type="UNIT_RIFLEMAN"/>
+		</Update>
+		<Update>
+			<Set RangedCombat="35"/>
+			<Where Type="UNIT_RIFLEMAN"/>
+		</Update>
+		<Update>
+			<Set Combat="20"/>
+			<Where Type="UNIT_RIFLEMAN"/>
+		</Update>
+		
+		<Update>
+			<Set CombatClass="UNITCOMBAT_ARCHER"/>
+			<Where Type="UNIT_SWEDISH_CAROLEAN"/>
+		</Update>
+		<Update>
+			<Set DefaultUnitAI="UNITAI_RANGED"/>
+			<Where Type="UNIT_SWEDISH_CAROLEAN"/>
+		</Update>
+		<Update>
+			<Set Range="3"/>
+			<Where Type="UNIT_SWEDISH_CAROLEAN"/>
+		</Update>
+		<Update>
+			<Set RangedCombat="35"/>
+			<Where Type="UNIT_SWEDISH_CAROLEAN"/>
+		</Update>
+		<Update>
+			<Set Combat="20"/>
+			<Where Type="UNIT_SWEDISH_CAROLEAN"/>
+		</Update>
+		
+		
+		<Update>
+			<Set CombatClass="UNITCOMBAT_ARCHER"/>
+			<Where Type="UNIT_ETHIOPIAN_MEHAL_SEFARI"/>
+		</Update>
+		<Update>
+			<Set DefaultUnitAI="UNITAI_RANGED"/>
+			<Where Type="UNIT_ETHIOPIAN_MEHAL_SEFARI"/>
+		</Update>
+		<Update>
+			<Set Range="3"/>
+			<Where Type="UNIT_ETHIOPIAN_MEHAL_SEFARI"/>
+		</Update>
+		<Update>
+			<Set RangedCombat="35"/>
+			<Where Type="UNIT_ETHIOPIAN_MEHAL_SEFARI"/>
+		</Update>
+		<Update>
+			<Set Combat="20"/>
+			<Where Type="UNIT_ETHIOPIAN_MEHAL_SEFARI"/>
+		</Update>
+		<!--Modify Great War Infantry and variants-->
+		<Update>
+			<Set Combat="70"/>
+			<Where Type="UNIT_GREAT_WAR_INFANTRY"/>
+		</Update>
+		<Update>
+			<Set Combat="70"/>
+			<Where Type="UNIT_FRENCH_FOREIGNLEGION"/>
+		</Update>
+		<!--Modify Infantry and variants-->
+		<Update>
+			<Set CombatClass="UNITCOMBAT_ARCHER"/>
+			<Where Type="UNIT_INFANTRY"/>
+		</Update>
+		<Update>
+			<Set DefaultUnitAI="UNITAI_RANGED"/>
+			<Where Type="UNIT_INFANTRY"/>
+		</Update>
+		<Update>
+			<Set Range="3"/>
+			<Where Type="UNIT_INFANTRY"/>
+		</Update>
+		<Update>
+			<Set RangedCombat="70"/>
+			<Where Type="UNIT_INFANTRY"/>
+		</Update>
+		<Update>
+			<Set Combat="65"/>
+			<Where Type="UNIT_INFANTRY"/>
+		</Update>
+	</Units>
+</GameData>
