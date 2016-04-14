@@ -6,3 +6,6 @@ Probably too late but here's the source code if you haven't realized its not com
 
 You'll need to go to the Steam program; Hilight "Library" and select "Tools" and install the Civ 5 SDK
 Copy units.xml into the XML folder of the default project structure.
+
+Link to workshop version 
+http://steamcommunity.com/sharedfiles/filedetails/?id=286716042
